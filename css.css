@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*ESTILIZAÇÃO DO HEADER - HTML */
+
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.imagem-cabeçalho {
+    max-width: 120px;
+    max-height: 120px;
+    width: 120px;
+}
+
+
+.lista-do-cabeçalho {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.ancoras-lista {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.lista-do-cabeçalho2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.icones-cabeçalho {
+    width: 35px;
+}
+
+.div-botão-cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+
+
+
+.botão-cabeçalho {
+    width: 220px;
+    max-width: 220px;
+    height: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(119, 62, 4, 0.925);
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.botão-cabeçalho:hover {
+    cursor: pointer;
+    background-color: #AC6B40;
+    transition: 0.5s;
+}
+
+.bloco-do-botão-cabeçalho {
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+
+/*ESTILIZAÇÃO DA SECTION - HTML */
+
+
+
+
+.imagem-principal-da-section {
+    width: 100vw;
+    max-width: 1349px;
+}
+
+.bloco-imagens-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+
+.imagens-section {
+    width: 200px;
+    max-width: 200px;
+}
+
+
+
+/*ESTILIZAÇÃO DA MAIN - HTML */
+
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+
+}
+
+.imagem-texto-principal {
+    width: 100vw;
+    max-width: 500px;
+    padding-top: 65px;
+}
+
+.div-1-principal {
+
+    width: 550px;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B05B34;
+    color: white;
+}
+
+
+.div-2-principal {
+    text-align: center;
+    padding-top: 70px;
+    width: 650px;
+}
+
+
+
+.div-2-principal h2, p{
+    font-size: 22px;
+}
+
+.div-2-principal p {
+    padding-top: 30px;
+}
+
+
+
+/*ESTILIZAÇÃO DO GRUPO DE NÚMEROS - HTML */
+
+
+.grupo-de-números {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 30px;
+    font-size: 49px;
+    color: #B05B34;
+}
+
+
+/*ESTILIZAÇÃO DE CONTATO E ENDEREÇO - HTML */
+
+
+.bloco-de-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 100px;
+}
+
+
+.span-bloco-de-contatos {
+    background-color: #B05B34;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.span-bloco-de-contatos p{
+    padding-top: 20px;
+}
+
+
+.span-bloco-de-contatos2 {
+    background-color: #B05B34;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.span-bloco-de-contatos2 p{
+    padding-top: 20px;
+}
+
+
+
+/*ESTILIZAÇÃO DO FOOTER*/
+
+
+.rodapé {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.rodapé p{
+    font-size: 15px;
+}
+
+.rodapé img{
+    width: 35px;
+    height: 35px;
+}
